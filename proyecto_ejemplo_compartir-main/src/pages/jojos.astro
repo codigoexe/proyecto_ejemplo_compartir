@@ -1,0 +1,55 @@
+---
+
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+<body>
+<style>
+
+    * { margin: 0; padding: 0; box-sizing: border-box; } body { font-family: Arial, sans-serif; background: #16001f; color: white; } header { background: linear-gradient(135deg, #5b008c, #16001f); text-align: center; padding: 60px 20px; border-bottom: 5px solid #ffcc00; } header h1 { font-size: 45px; color: #ffcc00; text-shadow: 4px 4px #ff0066; } header p { font-size: 20px; margin-top: 10px; } nav { display: flex; justify-content: center; gap: 30px; padding: 20px; background: #260035; } nav a { color: white; text-decoration: none; font-weight: bold; transition: 0.3s; } nav a:hover { color: #ffcc00; } main { max-width: 1100px; margin: auto; } section { padding: 60px 20px; } section h2 { text-align: center; font-size: 35px; color: #ffcc00; margin-bottom: 30px; } .hero { text-align: center; min-height: 400px; display: flex; flex-direction: column; justify-content: center; align-items: center; } .hero h2 { font-size: 60px; color: #ff0066; text-shadow: 4px 4px #ffcc00; } .hero p { max-width: 700px; font-size: 19px; line-height: 1.6; } button { margin-top: 30px; padding: 15px 30px; border: none; border-radius: 10px; background: #ff0066; color: white; font-size: 17px; font-weight: bold; cursor: pointer; } button:hover { background: #ffcc00; color: #16001f; } .tarjetas, .personajes { display: grid; grid-template-columns: repeat(2, 1fr); gap: 25px; } .card, .personaje, .stand-box { background: #29003b; border: 2px solid #ffcc00; border-radius: 15px; padding: 25px; transition: 0.3s; } .card:hover, .personaje:hover, .stand-box:hover { transform: translateY(-8px); background: #3c0055; } .card h3, .personaje h3, .stand-box h3 { color: #ff0066; font-size: 25px; margin-bottom: 10px; } .card h4 { color: #ffcc00; margin-bottom: 10px; } .card p, .personaje p, .stand-box p { line-height: 1.5; } .stands { text-align: center; } .stands > p { max-width: 700px; margin: auto; line-height: 1.6; } .stand-box { margin-top: 25px; text-align: left; } footer { text-align: center; padding: 30px; background: #0c0010; color: #ffcc00; } @media (max-width: 700px) { header h1 { font-size: 30px; } .hero h2 { font-size: 40px; } .tarjetas, .personajes { grid-template-columns: 1fr; } nav { flex-direction: column; align-items: center; gap: 15px; } }
+</style>
+
+    <header>
+        <h1>JOJO'S BIZARRE ADVENTURE</h1>
+        <p>¡Una aventura extraordinaria!</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#partes">Partes</a>
+        <a href="#personajes">Personajes</a>
+        <a href="#stands">Stands</a>
+    </nav>
+
+    <main>
+
+        <section id="inicio" class="hero">
+            <h2>¡ORA ORA ORA!</h2>
+            <p>
+                Bienvenido al mundo de JoJo's Bizarre Adventure,
+                una historia llena de aventuras, personajes únicos
+                y poderes increíbles.
+            </p>
+
+            <button>¡Descubrir más!</button>
+        </section>
+
+        <section id="partes">
+            <h2>Partes principales</h2>
+
+            <div class="tarjetas">
+
+                <div class="card">
+                    <h3>Parte 1</h3>
+                    <h4>Phantom Blood</h4>
+                    <p>Jonathan Joestar comienza la historia de la familia Joestar.</p>
+
+
+</body>
+</html>
